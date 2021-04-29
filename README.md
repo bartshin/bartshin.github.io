@@ -1,9 +1,21 @@
 
 ios 어플리케이션 pixel scheduler 의 개인정보 정책
 
+해당 어플리케이션은 어떠한 사용자의 정보도 수집하지 않으며
+Apple의 icloud의 서버와
+Google의 Oauth 서버를 제외하고는 기기 외부로 사용자의 데이터를 전송하지 않습니다
+
+사용자는 icloud를 서버와의 데이터 전송을 직접 차단할 수 있으며
+Google의 Oauth 서버를 통한 로그인은 ios의 webkit 서비스를 통해 이루어지고 사용자의 계정 정보는 
+개발자에게 허용되지 않습니다 데이터 이용을 위한 접근 토큰은 ios의 keychain을 통해 기기 내부에 저장됩니다
+
+외부와의 데이터 전송 또는 기기 내부의 데이터 저장 과정에서의 데이터 손실 또는 
+외부 공격에 대하여 개발자는 책임을 지지 않습니다
+
+
 **Privacy Policy**
 
-Shin hee goan built the Pixel Scheduler app as a Freemium app. This SERVICE is provided by Shin hee goan at no cost and is intended for use as is.
+Bartshin built the Pixel Scheduler app as a Freemium app. This SERVICE is provided by Bartshin at no cost and is intended for use as is.
 
 This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
 
