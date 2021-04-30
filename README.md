@@ -86,10 +86,6 @@ I may update our Privacy Policy from time to time. Thus, you are advised to revi
 
 This policy is effective as of 2021-04-29
 
-**Contact Us**
-
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at barshin@icloud.com.
-
 ## Data from Google Calendar
 
 **Request user's data**
@@ -111,3 +107,7 @@ The access token for authentication is stored in iOS keychain and it is not acce
 
 The user's data from Google Calendar that user not select to use in this app will be terminated.
 If user choose storing data to iCloud server then the data from Google Calendar will be store together.
+
+**Contact Us**
+
+If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at bartshin@icloud.com.
