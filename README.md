@@ -1,17 +1,33 @@
 
-ios 어플리케이션 pixel scheduler 의 개인정보 정책
+**ios 어플리케이션 pixel scheduler 의 개인정보 정책**
 
-해당 어플리케이션은 어떠한 사용자의 정보도 수집하지 않으며
-Apple의 icloud의 서버와
-Google의 Oauth 서버를 제외하고는 기기 외부로 사용자의 데이터를 전송하지 않습니다
+해당 어플리케이션은 어떠한 사용자의 정보도 수집하지 않으며 Apple의 iCloud의 서버와
+Google의 Oauth, Calendar Api 서버를 제외하고는 기기 외부로 사용자의 데이터를 전송하지 않습니다.
 
-사용자는 icloud를 서버와의 데이터 전송을 직접 차단할 수 있으며
+해당 어플리케이션은 사용자의 동의 없이는 iCloud서버와 Google 서버와의 통신을 시도하지 않습니다.
+사용자는 iCloud 서버와의 데이터 전송을 직접 차단할 수 있으며 언제든지 변경할 수 있습니다.
+
+해당 어플리케이션은 외부와의 데이터 전송 또는 기기 내부의 데이터 저장 과정에서의 개발자가 의도하지 않은 데이터의 손실 또는 
+외부 공격으로 인한 데이터의 노출에 대하여 책임을 지지 않습니다.
+
+*Google Calendar의 데이터 처리*
+해당 어플리케이션은 사용자의 요청에 따라 Google 서버에 사용자의 캘린더 정보를 요청합니다.
+해당 어플리케이션은 사용자의 캘린더 정보의 수정을 Google에 요청하지 않습니다.
+사용자가 데이터 사용을 오청했을시 사용자 인증을 위해 Google Oauth 로그인을 시도합니다.
 Google의 Oauth 서버를 통한 로그인은 ios의 webkit 서비스를 통해 이루어지고 사용자의 계정 정보는 
-개발자에게 허용되지 않습니다 데이터 이용을 위한 접근 토큰은 ios의 keychain을 통해 기기 내부에 저장됩니다
+해당 어플리케이션에게 허용되지 않습니다 데이터 이용을 위한 접근 토큰은 iOS의 keychain을 통해 기기 내부에 저장되며 다른 어플리케이션에서의
+접근이 차단됩니다.
+구글서버로부터의 사용자의 데이터는 기기 내부에서 사용되며 사용자가 명시적으로 사용할 것을 선택하지 않은 모든 정보는 저장되지 않고 폐기됩니다.
+사용자가 명시적으로 사용할 것을 선택한 정보는 기기에 저장되며 사용자가 확인할 수 있습니다 또한 사용자가 iCloud 서버으로의 데이터 저장을 
+활성화 했다면 함께 저장됩니다.
 
-외부와의 데이터 전송 또는 기기 내부의 데이터 저장 과정에서의 데이터 손실 또는 
-외부 공격에 대하여 개발자는 책임을 지지 않습니다
-
+*Data usage from Google*
+This SERVICE can request user's data from Google Calendar service only when user initiate data request .
+When user initiate data request this app try to login to Google Oauth.
+The login process with Google Oauth is fulfilled by Webkit framework in iOS and user's account information is not allowed to this app.
+The access token for authentication is stored in iOS keychain and it is not accessible for other app.
+The user's data from Google Calendar that user not select to use in this app will be terminated.
+If user choose storing data to iCloud server then the data from Google Calendar will be store together.
 
 **Privacy Policy**
 
