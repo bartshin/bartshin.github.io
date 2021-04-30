@@ -1,5 +1,5 @@
 
-#Pixel scheduler 의 개인정보 정책
+# Pixel scheduler 의 개인정보 정책
 
 해당 어플리케이션은 어떠한 사용자의 정보도 수집하지 않으며 Apple의 iCloud의 서버와
 Google의 Oauth, Calendar Api 서버를 제외하고는 기기 외부로 사용자의 데이터를 전송하지 않습니다.
@@ -10,7 +10,7 @@ Google의 Oauth, Calendar Api 서버를 제외하고는 기기 외부로 사용�
 해당 어플리케이션은 외부와의 데이터 전송 또는 기기 내부의 데이터 저장 과정에서의 개발자가 의도하지 않은 데이터의 손실 또는 
 외부 공격으로 인한 데이터의 노출에 대하여 책임을 지지 않습니다.
 
-##Google Calendar의 데이터
+## Google Calendar의 데이터
 
 **데이터의 요청**
 
@@ -30,7 +30,7 @@ Google의 Oauth 서버를 통한 로그인은 ios의 webkit 서비스를 통해 
 사용자가 명시적으로 사용할 것을 선택한 정보는 기기에 저장되며 사용자가 확인할 수 있습니다 또한 사용자가 iCloud 서버으로의 데이터 저장을 
 활성화 했다면 함께 저장됩니다.
 
-##Data from Google Calendar
+## Data from Google Calendar
 
 **Request user's data**
 This SERVICE will request user's data from Google Calendar service only when user initiate data request.
@@ -48,7 +48,7 @@ The access token for authentication is stored in iOS keychain and it is not acce
 The user's data from Google Calendar that user not select to use in this app will be terminated.
 If user choose storing data to iCloud server then the data from Google Calendar will be store together.
 
-#Privacy Policy
+# Privacy Policy
 
 Bartshin built the Pixel Scheduler app as a Freemium app. This SERVICE is provided by Bartshin at no cost and is intended for use as is.
 
