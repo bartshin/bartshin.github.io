@@ -19,20 +19,32 @@ Google의 Oauth, Calendar Api 서버를 제외하고는 기기 외부로 사용�
 *데이터 요청의 목적*
 Google Calendar 서버의 사용자 정보를 해당 어플리케이션에서 확인, 수정하기 위하여 요청하며 수정사항은 해당 어플리케이션에 국한됩니다.
 
-*사 *
+*사용자 인증  *
 사용자가 데이터 사용을 오청했을시 사용자 인증을 위해 Google Oauth 로그인을 시도합니다.
 Google의 Oauth 서버를 통한 로그인은 ios의 webkit 서비스를 통해 이루어지고 사용자의 계정 정보는 
 해당 어플리케이션에게 허용되지 않습니다 데이터 이용을 위한 접근 토큰은 iOS의 keychain을 통해 기기 내부에 저장되며 다른 어플리케이션에서의
 접근이 차단됩니다.
+
+*데이터 처리 *
 구글서버로부터의 사용자의 데이터는 기기 내부에서 사용되며 사용자가 명시적으로 사용할 것을 선택하지 않은 모든 정보는 저장되지 않고 폐기됩니다.
 사용자가 명시적으로 사용할 것을 선택한 정보는 기기에 저장되며 사용자가 확인할 수 있습니다 또한 사용자가 iCloud 서버으로의 데이터 저장을 
 활성화 했다면 함께 저장됩니다.
 
-*Data from Google Calendar*
-This SERVICE can request user's data from Google Calendar service only when user initiate data request .
+**Data from Google Calendar**
+
+*Request user's data*
+This SERVICE will request user's data from Google Calendar service only when user initiate data request.
+
+*Purpose of using user's data*
+This app make user's data from Google Calendar visible and correctible in this app.
+The alteration will not be applied to Google Calendar.
+
+*User Authentication*
 When user initiate data request this app try to login to Google Oauth.
 The login process with Google Oauth is fulfilled by Webkit framework in iOS and user's account information is not allowed to this app.
 The access token for authentication is stored in iOS keychain and it is not accessible for other app.
+
+*Data management*
 The user's data from Google Calendar that user not select to use in this app will be terminated.
 If user choose storing data to iCloud server then the data from Google Calendar will be store together.
 
