@@ -1,6 +1,6 @@
 
 <img src = "https://user-images.githubusercontent.com/65215523/116958662-8d0e6e00-acc5-11eb-85b0-9e0bdfefe6f5.png" alt="App icon" width="120" height="120" align="right">  
-</br>
+
 
 # Pixel scheduler 의 개인정보 정책  
 
