@@ -1,7 +1,9 @@
 
 <img src = "https://user-images.githubusercontent.com/65215523/116958662-8d0e6e00-acc5-11eb-85b0-9e0bdfefe6f5.png" alt="App icon" width="120" height="120" align="left">
 
+
 # Pixel scheduler 의 개인정보 정책
+
 
 해당 어플리케이션은 어떠한 사용자의 정보도 수집하지 않으며 Apple의 iCloud의 서버와
 Google의 Oauth, Calendar Api 서버를 제외하고는 기기 외부로 사용자의 데이터를 전송하지 않습니다.
