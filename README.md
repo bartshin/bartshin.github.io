@@ -1,4 +1,4 @@
-
+<img src = "https://user-images.githubusercontent.com/65215523/116958662-8d0e6e00-acc5-11eb-85b0-9e0bdfefe6f5.png" width="120" height="120">
 # Pixel scheduler 의 개인정보 정책
 
 해당 어플리케이션은 어떠한 사용자의 정보도 수집하지 않으며 Apple의 iCloud의 서버와
@@ -106,7 +106,7 @@ The access token for authentication is stored in iOS keychain and it is not acce
 **Data management**
 
 The user's data from Google Calendar that user not select to use in this app will be terminated.
-If user choose storing data to iCloud server then the data from Google Calendar will be store together.
+If user choose storing data to iCloud server then the data from Google Calendar will be stored together.
 
 **Contact Us**
 
