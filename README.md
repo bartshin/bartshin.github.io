@@ -110,3 +110,4 @@ If user choose storing data to iCloud server then the data from Google Calendar 
 **Contact Us**
 
 If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at bartshin@icloud.com.
+
